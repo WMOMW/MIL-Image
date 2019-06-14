@@ -5,8 +5,29 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MILImage.cpp">
+    <ClCompile Include="cvMatToQImage.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="namedimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Result_Info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainingTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MIL_Image.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageReasult_Widget.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SVM_Trainer.cpp">
+      <Filter>UI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -30,15 +51,51 @@
       <Extensions>ui</Extensions>
       <ParseFiles>true</ParseFiles>
     </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{bce92e79-8385-4ae9-9db7-d850a3e0712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI_Head">
+      <UniqueIdentifier>{817878f6-6527-410d-ab99-b8588b31bae9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cvMatToQImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="namedImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Result_Info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_MIL_Image.h">
+      <Filter>UI_Head</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_ImageReasult_Widget.h">
+      <Filter>UI_Head</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_SVM_Trainer.h">
+      <Filter>UI_Head</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="MILImage.h">
+    <QtMoc Include="ImageTools.h">
       <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="TrainingTools.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MIL_Image.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="SVM_Trainer.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="ImageReasult_Widget.h">
+      <Filter>UI</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -53,5 +110,13 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MIL-Image.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\x64\Release\ImageTools.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\x64\Release\TrainingTools.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
   </ItemGroup>
 </Project>
