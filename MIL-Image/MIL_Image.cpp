@@ -551,7 +551,7 @@ void MIL_Image::show_outImageView() {
 }
 
 void MIL_Image::show_actionAbout() {
-	QMessageBox::information(this, QString::fromLocal8Bit("about"), QString::fromLocal8Bit("基于特征空间变换的多示例图像分类系统\n\t\t20152104  刘晓东"));
+	QMessageBox::information(this, QString::fromLocal8Bit("about"), QString::fromLocal8Bit("基于特征空间变换的多示例图像分类系统"));
 }
 
 void MIL_Image::Source_to_Destination() {
