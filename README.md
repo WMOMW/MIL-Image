@@ -7,4 +7,6 @@ The Multi-Instance Image Classification System Based on Feature Space Transforma
 结论：惨 T^T
 
 
+Qt 5.9     OpenCV 4
+
 GPL 学习 非商用
