@@ -10,3 +10,6 @@ The Multi-Instance Image Classification System Based on Feature Space Transforma
 Qt 5.9     OpenCV 4
 
 GPL 学习 非商用
+
+VS2017 Community
+Windows
